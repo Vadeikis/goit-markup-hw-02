@@ -1,0 +1,19 @@
+:root {
+  --primary-color: #434455;
+  --secondary-color: #2E2F42;
+  --white-color: #FFFFFF;
+  --first-logo-color: #4D5AE5;
+  --second-logo-color: #F4F4FD;
+  --primary-background-color: #FFFFFF;
+  --secondary-background-color: #2E2F42;
+  --gray-background-color: #F4F4FD;
+  --accent-color: #4D5AE5;
+  --active-accent-color: #FFFFFF;
+  --accent-background-color: #F4F4FD;
+  --active-accent-background-color: #404BBF;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
