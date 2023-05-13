@@ -58,12 +58,11 @@ body {
   color: var(--active-accent-background-color);
 }
 
-.contacts {
-  list-style-type: none;
+.address {
   font-style: normal;
 }
 
-.contacts .link {
+.address .link {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -73,9 +72,9 @@ body {
   letter-spacing: 0.02em;
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
-  color: var(--accent-color);
+.address .link:hover,
+.address .link:focus {
+  color: var(--active-accent-background-color);
 }
 
 /* Hero */
@@ -108,16 +107,21 @@ body {
   cursor: pointer;
 }
 
+.hero .button:hover,
+.hero .button:focus {
+background-color: var(--active-accent-background-color);
+}
+
 /* Our preference */
 
 .preference {
   display: none;
 }
-.preference-list {
+.preference .list {
   list-style-type: none;
 }
 
-.preference-list .title {
+.list .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -125,7 +129,7 @@ body {
   color: var(--secondary-color);
 }
 
-.preference-list .text {
+.list .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -164,11 +168,11 @@ body {
   color: var(--secondary-color);
 }
 
-.team-list {
+.our-team .list {
   list-style-type: none;
 }
 
-.team-list .name {
+.our-team .list .name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -177,7 +181,7 @@ body {
   color: var(--secondary-color);
 }
 
-.team-list .position {
+.our-team .list .position {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -198,7 +202,7 @@ body {
   background-color: var(--secondary-background-color);
 }
 
-.footer .logo {
+.footer .link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -208,11 +212,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--second-footer-logo-color);
+  color: var(--first-footer-logo-color);
 }
 
-.footer .logo-web {
-  color: var(--first-footer-logo-color);
+.footer .link-web {
+  color: var(--second-footer-logo-color);
 }
 
 .footer .text {
@@ -240,6 +244,7 @@ body {
   color: var(--accent-color);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -261,9 +266,11 @@ body {
 
 /* Portfolio List */
 
-.portfolio-list {
+.portfolio .list {
   list-style-type: none;
 }
+
+
 
 .portfolio-name {
   font-weight: 500;
@@ -274,8 +281,8 @@ body {
 }
 
 .portfolio-type {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primary-color);
 }
