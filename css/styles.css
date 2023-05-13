@@ -103,6 +103,7 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 /* Our preference */
@@ -240,6 +241,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .filter-list .button:hover,
