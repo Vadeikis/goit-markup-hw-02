@@ -156,13 +156,13 @@ background-color: var(--active-accent-background-color);
 
 .our-team {
   background-color: var(--gray-background-color);
+  text-align: center;
 }
 
 .team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-color);
@@ -172,7 +172,6 @@ background-color: var(--active-accent-background-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
 }
@@ -181,7 +180,6 @@ background-color: var(--active-accent-background-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.02em;
 }
 
