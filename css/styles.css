@@ -21,6 +21,21 @@ body {
   background-color: var(--primary-background-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 /* Header */
 
 .logo-link {
@@ -112,7 +127,7 @@ body {
 
 .hero .button:hover,
 .hero .button:focus {
-background-color: var(--active-accent-background-color);
+  background-color: var(--active-accent-background-color);
 }
 
 /* Our preference */
